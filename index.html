@@ -4,30 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MORAH – Two Lives, One Truth</title>
-  <link rel="icon" type="image/png" href="favicon.ico" />
-  <meta name="description" content="MORAH is a survival-themed reality show exploring the mystery of dual identity, resilience, and truth across rural Europe.">
-  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- Prevent favicon error -->
+
+  <!-- Favicon (base64 fallback to avoid console error) -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Mobile Styles -->
   <style>
-    
-  @media (max-width: 600px) {
-  h1 {
-    font-size: 2em;
-  }
-  p.tagline, section p {
-    font-size: 1em;
-  }
-  .enter-btn, a {
-    padding: 12px 20px;
-    font-size: 0.95em;
-  }
-  section {
-    padding: 0 10px;
-  }
-  }
+    @media (max-width: 600px) {
+      h1 { font-size: 2em; }
+      p.tagline, section p { font-size: 1em; }
+      .enter-btn, a { padding: 12px 20px; font-size: 0.95em; }
+      section { padding: 0 10px; }
+    }
+    html { scroll-behavior: smooth; }
     body {
-  padding-top: 60px; /* So content doesn't hide behind nav */
-    
+      padding-top: 60px;
       margin: 0;
       font-family: 'Unbounded', sans-serif;
       background: #0d0d0d;
@@ -66,98 +60,98 @@
     }
   </style>
 
-  <style>
-  html {
-    scroll-behavior: smooth;
-  }
-  </style>
-
   <!-- Primary Meta Tags -->
-<meta name="title" content="MORAH – Two Lives, One Truth" />
-<meta name="description" content="MORAH is a survival reality show built on truth, strategy, and transformation. Apply to join the rite." />
-<meta name="keywords" content="MORAH, survival show, reality TV, Romania, transformation, truth, two lives, one truth, apply now" />
-<meta name="author" content="MORAH Team" />
+  <meta name="title" content="MORAH – Two Lives, One Truth" />
+  <meta name="description" content="MORAH is a survival reality show built on truth, strategy, and transformation. Apply to join the rite." />
+  <meta name="keywords" content="MORAH, survival show, reality TV, Romania, transformation, truth, two lives, one truth, apply now" />
+  <meta name="author" content="MORAH Team" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://morahshow.vercel.app/" />
-<meta property="og:title" content="MORAH – Two Lives, One Truth" />
-<meta property="og:description" content="Survive. Transform. Discover the truth in MORAH – the ultimate reality show experience." />
-<meta property="og:image" content="https://morahshow.vercel.app/logo.png" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://morahshow.vercel.app/" />
+  <meta property="og:title" content="MORAH – Two Lives, One Truth" />
+  <meta property="og:description" content="Survive. Transform. Discover the truth in MORAH – the ultimate reality show experience." />
+  <meta property="og:image" content="https://morahshow.vercel.app/logo.png" />
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="MORAH – Two Lives, One Truth" />
-<meta name="twitter:description" content="Survive. Transform. Discover the truth in MORAH – the ultimate reality show experience." />
-<meta name="twitter:image" content="https://morahshow.vercel.app/logo.png" />
-  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MORAH – Two Lives, One Truth" />
+  <meta name="twitter:description" content="Survive. Transform. Discover the truth in MORAH – the ultimate reality show experience." />
+  <meta name="twitter:image" content="https://morahshow.vercel.app/logo.png" />
 </head>
+
 <body>
 
+  <!-- Navigation -->
   <nav style="position: fixed; top: 0; left: 0; width: 100%; background: rgba(0,0,0,0.7); padding: 15px 0; z-index: 1000; text-align: center;">
-  <a href="index.html#home" style="margin: 0 20px; color: #f1f1f1; text-decoration: none; font-weight: bold;">Home</a>
-  <a href="index.html#about" style="margin: 0 20px; color: #f1f1f1; text-decoration: none; font-weight: bold;">About</a>
-  <a href="apply.html" style="margin: 0 20px; color: #e6e600; text-decoration: none; font-weight: bold;">Apply</a>
+    <a href="index.html#home" style="margin: 0 20px; color: #f1f1f1; text-decoration: none; font-weight: bold;">Home</a>
+    <a href="index.html#about" style="margin: 0 20px; color: #f1f1f1; text-decoration: none; font-weight: bold;">About</a>
+    <a href="apply.html" style="margin: 0 20px; color: #e6e600; text-decoration: none; font-weight: bold;">Apply</a>
   </nav>
 
+  <!-- Hero Section -->
   <h1>MORAH</h1>
   <p class="tagline">Two Lives, One Truth</p>
   <button class="enter-btn" onclick="location.href='apply.html'">Enter the Rite</button>
-</a>
+
+  <!-- Intro Paragraph -->
   <div style="margin-top: 3em; max-width: 600px; font-size: 1em; color: #ccc; line-height: 1.6;">
-  <p>
-    MORAH is more than a show. It’s a modern-day rite through forgotten villages, real human trials, and dual realities. 
-    Each participant faces not just survival—but a mirror of the self. Two lives. One truth.
-  </p>
+    <p>
+      MORAH is more than a show. It’s a modern-day rite through forgotten villages, real human trials, and dual realities. 
+      Each participant faces not just survival—but a mirror of the self. Two lives. One truth.
+    </p>
   </div>
 
+  <!-- About Section -->
   <section id="about" style="margin-top: 100px; max-width: 800px;">
-  <h2 style="font-size: 2em; color: #e6e600; margin-bottom: 0.5em;">About MORAH</h2>
-  <p style="font-size: 1.1em; line-height: 1.6; color: #ccc;">
-    <strong>MORAH</strong> is a bold, survival-themed reality show set in untold regions across Europe. It explores the tension between dual identities, real-life challenges, and the core truth hidden within every soul.
-    <br /><br />
-    Shot in rural locations with raw intensity, contestants face physical tasks, mental twists, and social strategy—each moment pushing them to embrace “Two Lives, One Truth.” A story for the streets and the spirit.
-  </p>
-</section>
-
-  <section style="margin-top: 4em; max-width: 600px;">
-  <h2 style="font-size: 1.8em; color: #e6e600; margin-bottom: 0.5em;">Why Romania?</h2>
-  <p style="font-size: 1em; color: #ddd; line-height: 1.6;">
-    Romania is a land caught between myth and memory—where the old world still whispers through forest trails, mountain villages, and forgotten towns. 
-    <br><br>
-    It's here that *MORAH* finds its mirror. A place where silence is louder than noise, and survival isn’t just physical—it’s spiritual.
-    <br><br>
-    Romania doesn’t just host the show. It becomes the test.
-  </p>
+    <h2 style="font-size: 2em; color: #e6e600; margin-bottom: 0.5em;">About MORAH</h2>
+    <p style="font-size: 1.1em; line-height: 1.6; color: #ccc;">
+      <strong>MORAH</strong> is a bold, survival-themed reality show set in untold regions across Europe. It explores the tension between dual identities, real-life challenges, and the core truth hidden within every soul.
+      <br><br>
+      Shot in rural locations with raw intensity, contestants face physical tasks, mental twists, and social strategy—each moment pushing them to embrace “Two Lives, One Truth.” A story for the streets and the spirit.
+    </p>
   </section>
 
-
+  <!-- Romania Section -->
   <section style="margin-top: 4em; max-width: 600px;">
-  <h2 style="font-size: 1.8em; color: #e6e600; margin-bottom: 0.5em;">Support MORAH / Join the Cartel</h2>
-  <p style="font-size: 1em; color: #ddd; line-height: 1.6;">
-    MORAH is a vision. A mirror. A movement.
-    <br><br>
-    We’re calling on bold minds—sponsors, storytellers, creators, and believers—who see beyond entertainment and into transformation.
-    <br><br>
-    Want to support, partner, or follow the journey? Reach out and let the rite begin.
-  </p>
-  <a href="mailto:morahsurvivalshow@gmail.com" style="margin-top: 1.5em; display: inline-block; background: #e6e600; color: #0d0d0d; padding: 12px 25px; border-radius: 6px; font-weight: bold; text-decoration: none;">Email the Cartel</a>
+    <h2 style="font-size: 1.8em; color: #e6e600; margin-bottom: 0.5em;">Why Romania?</h2>
+    <p style="font-size: 1em; color: #ddd; line-height: 1.6;">
+      Romania is a land caught between myth and memory—where the old world still whispers through forest trails, mountain villages, and forgotten towns. 
+      <br><br>
+      It's here that <em>MORAH</em> finds its mirror. A place where silence is louder than noise, and survival isn’t just physical—it’s spiritual.
+      <br><br>
+      Romania doesn’t just host the show. It becomes the test.
+    </p>
   </section>
 
+  <!-- Support Section -->
+  <section style="margin-top: 4em; max-width: 600px;">
+    <h2 style="font-size: 1.8em; color: #e6e600; margin-bottom: 0.5em;">Support MORAH / Join the Cartel</h2>
+    <p style="font-size: 1em; color: #ddd; line-height: 1.6;">
+      MORAH is a vision. A mirror. A movement.
+      <br><br>
+      We’re calling on bold minds—sponsors, storytellers, creators, and believers—who see beyond entertainment and into transformation.
+      <br><br>
+      Want to support, partner, or follow the journey? Reach out and let the rite begin.
+    </p>
+    <a href="mailto:morahsurvivalshow@gmail.com" style="margin-top: 1.5em; display: inline-block; background: #e6e600; color: #0d0d0d; padding: 12px 25px; border-radius: 6px; font-weight: bold; text-decoration: none;">Email the Cartel</a>
+  </section>
 
+  <!-- Footer -->
   <footer style="margin-top: 5em; padding: 2em 0; text-align: center; color: #888; font-size: 0.9em;">
-  <hr style="border: none; border-top: 1px solid #333; width: 80%; margin: 0 auto 1em auto;">
-  <p>&copy; 2025 MORAH Survival Show. A rite by souls, for souls.</p>
-  <p style="margin-top: 0.5em;">
-    <a href="https://facebook.com/morahshow" target="_blank" style="color: #e6e600; text-decoration: none; margin-right: 1em;">Facebook</a>
-    <a href="mailto:morahsurvivalshow@gmail.com" style="color: #e6e600; text-decoration: none;">Email</a>
-  </p>
+    <hr style="border: none; border-top: 1px solid #333; width: 80%; margin: 0 auto 1em auto;">
+    <p>&copy; 2025 MORAH Survival Show. A rite by souls, for souls.</p>
+    <p style="margin-top: 0.5em;">
+      <a href="https://facebook.com/morahshow" target="_blank" style="color: #e6e600; text-decoration: none; margin-right: 1em;">Facebook</a>
+      <a href="mailto:morahsurvivalshow@gmail.com" style="color: #e6e600; text-decoration: none;">Email</a>
+    </p>
   </footer>
-  
-</body>
 
+  <!-- Background Video -->
   <video autoplay muted loop playsinline id="bgVideo" style="position: fixed; right: 0; bottom: 0; min-width: 100vw; min-height: 100vh; z-index: -1; object-fit: cover;">
-  <source src="background_v.mp4" type="video/mp4" />
+    <source src="background_v.mp4" type="video/mp4" />
   </video>
   <div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: -1;"></div>
+
+</body>
 </html>
