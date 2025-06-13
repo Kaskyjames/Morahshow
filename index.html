@@ -122,6 +122,21 @@
   <meta name="twitter:title" content="MORAH – Two Lives, One Truth" />
   <meta name="twitter:description" content="Survive. Transform. Discover the truth in MORAH – the ultimate reality show experience." />
   <meta name="twitter:image" content="https://morahshow.vercel.app/logo.png" />
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section:target::before {
+    content: "";
+    display: block;
+    height: 80px; /* same as navbar height */
+    margin-top: -80px;
+    visibility: hidden;
+  }
+  </style>
+  
 </head>
 
 <body>
