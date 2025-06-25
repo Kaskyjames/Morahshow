@@ -226,3 +226,18 @@ body {
   margin: 40px auto;
   padding: 0 20px;
 }
+
+body {
+  background: url('bg_image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.corner-logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 50px;
+  z-index: 1000;
+  opacity: 0.9;
+}
