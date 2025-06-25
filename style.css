@@ -113,3 +113,14 @@ body {
   height: 40px;
   object-fit: contain;
 }
+
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
